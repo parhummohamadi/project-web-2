@@ -1,0 +1,203 @@
+* {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    font-family:parham-font;
+}
+
+@font-face {
+    font-family: parham-font;
+    src: url(Montserrat-Bold.woff);
+    src: url(Montserrat-Regular.woff);
+  }
+
+@media all and (max-width:575px) {
+
+    .parham {
+        width: 170px;
+        
+    }
+    .services-icon {
+        font-size: 35px;
+    }
+
+}
+@media all and (min-width:576px) and (max-width:767px) {
+    .parham {
+        width: 170px;
+    }
+    .services-icon {
+        font-size: 35px;
+    }
+}
+
+@media all and (min-width:767px) and (max-width:991px) {
+    .parham {
+        width: 170px;
+    }
+    .services-icon {
+        font-size: 37px;
+    }
+
+    .contact-p {
+        font-size:12px;
+    }
+
+}
+
+@media all and (min-width:991px) and (max-width:1199px) {
+    .parham {
+        width: 200px;
+    }
+
+    .contact-p {
+        font-size: calc(0.5vw + 7px);
+    }
+}
+
+@media all and (min-width:1199px) and (max-width:1399px) {
+    .parham {
+        width: 210px;
+    }
+}
+
+@media all and (min-width:1399px) {
+    .parham {
+        width: 250px;
+    }
+}
+
+#navigation {
+    background-color: rgb(255, 255, 255);
+    z-index: 2 !important;
+}
+
+.nav-item:hover {
+    background-color: #f2f2f2;
+    
+}
+
+.nav-item{
+    transition: all 250ms linear 1ms;
+
+}
+
+
+#under-nav {
+
+    height: 93vh;
+    background-image: url("../images/IMG_5655.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#hi-parham {
+    color: #afafaf;
+}
+
+.info {
+    color: #724f50;
+}
+
+i {
+    color: #b67d7f;
+}
+
+.social {
+    width: 40px;
+    transition: all 200ms linear 1ms;
+
+}
+
+.social:hover {
+    background-color: black;
+}
+
+.social:hover i {
+    color: aliceblue;
+}
+
+.pro {
+    background-color: #b67d7f;
+}
+
+.service-div {
+    transition: all 100ms linear 1ms;
+}
+
+.service-div i:hover {
+    transform:rotateY(690deg)
+}
+
+.portfolio {
+    color: #724f50;
+    transition: all 500ms ease 1ms;
+}
+
+.portfolio:hover {
+    text-decoration: underline !important;
+}
+
+.portfolio-img {
+    transition: all 400ms linear 1ms;
+    
+}
+
+.div-port:hover .portfolio-img  {
+    opacity: 0.3;
+    transform: scale(1.1);
+    
+
+}
+
+.port-content {
+    opacity: 0;
+    transition: all 400ms linear 1ms;
+}
+
+.div-port:hover .port-content {
+    opacity: 1;
+}
+
+.div-port {
+    z-index: 1 !important;
+}
+
+.underline {
+    letter-spacing:-3px;
+}
+
+
+.contact-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.message {
+    transition: all 400ms linear 1ms;
+}
+
+.message:hover {
+    background-color: #b67d7f !important;
+    color: black !important;
+   
+}
+
+#input-m {
+    padding-bottom: 20vh;
+    
+}
+
+.footer {
+
+    background-color: rgb(216, 216, 216);
+}
+
+.footer-icon {
+    transition: all 400ms linear 1ms;
+}
+
+.footer-icon:hover {
+    color: rgb(32, 32, 32);
+}
